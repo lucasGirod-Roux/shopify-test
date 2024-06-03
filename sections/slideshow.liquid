@@ -126,6 +126,9 @@
               assign fetch_priority = 'auto'
               if section.index == 1
                 assign fetch_priority = 'high'
+                assign loading = 'eager'
+              else
+                assign loading = 'lazy'
               endif
             -%}
             {%- if forloop.first %}
