@@ -48,6 +48,8 @@
   assign fetch_priority = 'auto'
   if section.index == 1
     assign fetch_priority = 'high'
+  else
+    assign fetch_priority = 'eager'
   endif
 -%}
 
@@ -80,6 +82,7 @@
           sizes: sizes,
           widths: widths,
           fetchpriority: fetch_priority,
+          loading: eager,
           decoding: async
       }}
     </div>
