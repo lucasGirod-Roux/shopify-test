@@ -83,8 +83,8 @@
           sizes: sizes,
           widths: widths,
           fetchpriority: fetch_priority,
-          loading: eager,
-          decoding: async
+          loading: loading,
+          decoding: decoding
       }}
     </div>
   {%- elsif section.settings.image_2 == blank -%}
@@ -116,7 +116,9 @@
           class: image_class_2,
           sizes: sizes,
           widths: widths,
-          fetchpriority: fetch_priority
+          fetchpriority: fetch_priority,
+          loading: loading,
+          decoding: decoding
       }}
     </div>
   {%- endif -%}
