@@ -48,8 +48,9 @@
   assign fetch_priority = 'auto'
   if section.index == 1
     assign fetch_priority = 'high'
+    assign loading = 'eager'
   else
-    assign fetch_priority = 'eager'
+    assign loading = 'lazy'
   endif
 -%}
 
