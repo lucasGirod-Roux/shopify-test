@@ -386,7 +386,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-
+      "#admin-bar-iframe{display:none;}"
     ]
   }
 }

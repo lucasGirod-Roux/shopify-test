@@ -6,8 +6,14 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text": "{{ product.vendor }}",
+            "text": "<a href=\"\/collections\/automated-collection\" title=\"Collection test\">collection test<\/a>",
             "text_style": "uppercase"
+          }
+        },
+        "custom_liquid_MpkQhQ": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
           }
         },
         "title": {
@@ -25,6 +31,14 @@
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
+          }
+        },
+        "inventory_JKz99H": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 10,
+            "show_inventory_quantity": true
           }
         },
         "quantity_selector": {
@@ -53,9 +67,11 @@
       },
       "block_order": [
         "vendor",
+        "custom_liquid_MpkQhQ",
         "title",
         "price",
         "variant_picker",
+        "inventory_JKz99H",
         "quantity_selector",
         "buy_buttons",
         "description",
@@ -94,10 +110,51 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "collection_list_6CMU8a": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_KNht9B": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_Dp4WDD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_Mdnteh": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hydrogen"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_KNht9B",
+        "featured_collection_Dp4WDD",
+        "featured_collection_Mdnteh"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "collection_list_6CMU8a"
   ]
 }
