@@ -78,6 +78,9 @@
                 {% unless lazy_load == false %}
                   loading="lazy"
                 {% endunless %}
+                {% unless lazy_load == true %}
+                  fetchpriority="high" loading="eager"
+                {% endunless %}
                 width="{{ card_product.featured_media.width }}"
                 height="{{ card_product.featured_media.height }}"
               >
@@ -99,6 +102,7 @@
                   alt=""
                   class="motion-reduce"
                   loading="lazy"
+                  decoding="async"
                   width="{{ card_product.media[1].width }}"
                   height="{{ card_product.media[1].height }}"
                 >
