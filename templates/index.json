@@ -26,6 +26,9 @@
         "heading",
         "button"
       ],
+      "custom_css": [
+        ".header-wrapper {background-color: red;}"
+      ],
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
