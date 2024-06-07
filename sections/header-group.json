@@ -29,7 +29,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".header-wrapper {background-color:rgb(41, 39, 144);}"
+        ".header-wrapper {background-color: rgb(41, 39, 144);}"
       ],
       "settings": {
         "logo_position": "middle-left",
@@ -37,7 +37,7 @@
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
-        "color_scheme": "scheme-5",
+        "color_scheme": "scheme-1",
         "menu_color_scheme": "scheme-3",
         "enable_country_selector": true,
         "enable_language_selector": true,

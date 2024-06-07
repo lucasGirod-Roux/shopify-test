@@ -1,5 +1,6 @@
 {
   "current": {
+    "logo": "shopify:\/\/shop_images\/logo-taffelec.jpg",
     "logo_width": 90,
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
@@ -386,7 +387,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "#admin-bar-iframe{display:none;}"
+      "#admin-bar-iframe {display: none;}"
     ]
   }
 }
