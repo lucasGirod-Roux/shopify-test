@@ -29,7 +29,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-
+        ".list-menu--inline{align-items:center}"
       ],
       "settings": {
         "logo_position": "middle-left",
