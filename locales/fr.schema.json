@@ -701,6 +701,109 @@
         "name": "Articles de blog"
       }
     },
+    "featured-collect-test": {
+      "name": "Collection test",
+      "settings": {
+        "title": {
+          "label": "Titre"
+        },
+        "collection": {
+          "label": "Collection"
+        },
+        "products_to_show": {
+          "label": "Quantité maximale de produits à afficher"
+        },
+        "show_view_all": {
+          "label": "Activer le style « Tout afficher » si la collection comprend plus de produits que ce qui est affiché"
+        },
+        "header": {
+          "content": "Carte de produit"
+        },
+        "image_ratio": {
+          "label": "Rapport d'image",
+          "options__1": {
+            "label": "Adapter à l'image"
+          },
+          "options__2": {
+            "label": "Portrait"
+          },
+          "options__3": {
+            "label": "Square"
+          }
+        },
+        "show_secondary_image": {
+          "label": "Afficher la deuxième image en survol"
+        },
+        "show_vendor": {
+          "label": "Afficher le fournisseur"
+        },
+        "show_rating": {
+          "label": "Afficher la note du produit",
+          "info": "Pour afficher une note, ajoutez une application d'évaluation de produits. [En savoir plus](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/theme-features#featured-collection-show-product-rating)"
+        },
+        "enable_quick_buy": {
+          "label": "Activer le bouton d'ajout rapide",
+          "info": "Optimal avec un type de panier pop-up ou à tiroir."
+        },
+        "columns_desktop": {
+          "label": "Nombre de colonnes sur ordinateur"
+        },
+        "description": {
+          "label": "Description"
+        },
+        "show_description": {
+          "label": "Afficher la description de la collection à partir de l'interface administrateur"
+        },
+        "description_style": {
+          "label": "Style de la description",
+          "options__1": {
+            "label": "Corps"
+          },
+          "options__2": {
+            "label": "Sous-titre"
+          },
+          "options__3": {
+            "label": "Majuscule"
+          }
+        },
+        "view_all_style": {
+          "options__1": {
+            "label": "Lien"
+          },
+          "options__2": {
+            "label": "Bouton en relief"
+          },
+          "options__3": {
+            "label": "Bouton plein"
+          },
+          "label": "Style « Tout afficher »"
+        },
+        "enable_desktop_slider": {
+          "label": "Activer le carrousel sur ordinateur"
+        },
+        "full_width": {
+          "label": "Rendre les produits pleine largeur"
+        },
+        "header_mobile": {
+          "content": "Mise en page sur mobile"
+        },
+        "columns_mobile": {
+          "label": "Nombre de colonnes sur mobile",
+          "options__1": {
+            "label": "1 colonne"
+          },
+          "options__2": {
+            "label": "2 colonnes"
+          }
+        },
+        "swipe_on_mobile": {
+          "label": "Activer le balayage sur mobile"
+        }
+      },
+      "presets": {
+        "name": "Collection en vedette"
+      }
+    },
     "featured-collection": {
       "name": "Collection en vedette",
       "settings": {
