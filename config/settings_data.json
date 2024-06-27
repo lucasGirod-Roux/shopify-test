@@ -388,8 +388,6 @@
   "platform_customizations": {
     "custom_css": [
       "#admin-bar-iframe {display: none;}",
-      ".header__inline-menu .list-menu li:first-child {background-color: #009fe3; border-radius: 50rem; font-weight: 700; padding: 0.625rem 1rem;}",
-      ".header__inline-menu .list-menu li:first-child span {color: #fff; text-decoration: none;}"
     ]
   }
 }
